@@ -1,5 +1,6 @@
-A collection of header graphics used on 2016 review pages
-========================================================== 
+A collection of header graphics and a page enhancer used on 2016 review pages
+============================================================================== 
+
 
 The files are located in 
 ---------------------------------
@@ -26,8 +27,8 @@ https://www.theguardian.com/music/2016/nov/30/the-best-albums-of-2016
 
 
 Page Enhancer
-==============================
-Using the ES6 template below will generate a boot.js to embed in a composer page. Edit the css (review-2016/src/css/main.css) to update styles. 
+---------------------------------
+Using the ES6 template instructions below will generate a boot.js to embed in a composer page. Edit the css (review-2016/src/css/main.css) to update styles in the composer page. 
 
 
 
