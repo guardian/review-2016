@@ -12,7 +12,9 @@ https://www.theguardian.com/film/2016/nov/29/50-best-us-film-of-2016-the-full-li
 https://www.theguardian.com/music/2016/nov/30/the-best-albums-of-2016
 
 
-Using the ES6 template in the folder will generate a page enhancer. Edit the css (review-2016/src/css/main.css) to update. 
+Using the ES6 template below will generate a boot.js to embed in a composer page. Edit the css (review-2016/src/css/main.css) to update. 
+
+
 
 
 
