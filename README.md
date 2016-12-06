@@ -1,3 +1,21 @@
+A collection of header graphics used on 2016 review pages 
+
+The files are located in 
+review-2016/src/js/text/review-ukfilm.html
+review-2016/src/js/text/review-usfilm.html
+review-2016/src/js/text/review-music.html
+review-2016/src/js/text/review-tv.html
+
+Here are working examples 
+https://www.theguardian.com/film/2016/nov/29/the-50-best-uk-films-of-2016-full-list
+https://www.theguardian.com/film/2016/nov/29/50-best-us-film-of-2016-the-full-list
+https://www.theguardian.com/music/2016/nov/30/the-best-albums-of-2016
+
+
+Using the ES6 template in the folder will generate a page enhancer. Edit the css (review-2016/src/css/main.css) to update. 
+
+
+
 Guardian interactive ES6 template
 =================================
 
