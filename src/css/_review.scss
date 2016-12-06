@@ -1,0 +1,386 @@
+.year-review,
+        .year-review--standfirst-wrapper {
+            position: fixed;
+            left: 50%;
+            z-index: -100;
+            background-size: cover;
+            height: auto
+        }
+        h1 {
+            font-family: "Guardian Egyptian Web", Georgia, serif;
+            color: rgba(249,249,249,0.8);
+            font-size: 36px
+        }
+
+        h2 {
+            font-family: "Guardian Egyptian Web", Georgia, serif;
+            color: #FFF;
+            font-size: 24px;
+            line-height:30px;
+            font-weight: 200 !important;
+        }
+        .sans-font{
+
+        }
+        .year-review {
+            background-color: #fdeef1;
+            top: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            -webkit-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out
+        }
+        
+        .year-review--standfirst-wrapper {
+            top: 80%;
+            width: 90%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            display: none
+        } 
+        .year-review-standfirst {
+            width: 300px;
+            margin-left: 30px
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--standfirst-wrapper {
+                width: 980px;
+                display: block
+            }
+            .year-review-standfirst {
+            width: 480px;
+            margin-left: 30px
+        }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--standfirst-wrapper {
+                width: 1140px;
+                margin-left: 160px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--standfirst-wrapper {
+                width: 1300px;
+                margin-left: 220px
+            }
+        }
+       
+        .year-review--type {
+            position: absolute;
+            top: 100px;
+            width: 100%
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--type {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                height: auto;
+                z-index: -100;
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                background-size: cover;
+                width: 980px;
+                margin-top: 0;
+                margin-left: 150px
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--type {
+                width: 1140px;
+                margin-left: 210px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--type {
+                width: 1300px;
+                -ms-transform: translateX(-50%) translateY(-56%);
+                -moz-transform: translateX(-50%) translateY(-56%);
+                -webkit-transform: translateX(-50%) translateY(-56%)
+            }
+        }
+        .year-review--type svg {
+            width: 100%;
+            height: auto
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--type svg {
+                width: 500px;
+                height: auto;
+                margin-top: -50px
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--type svg {
+                width: 550px;
+                height: auto
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--type svg {
+                width: 570px;
+                height: auto
+            }
+        }
+        .year-review--cut {
+            position: absolute;
+            bottom: 1px;
+            display: none
+        }
+        .year-review--cut img {
+            width: 100%;
+            height: auto;
+            display: block
+        }
+        .year-review--cut.one {
+            right: 30px;
+            display: block;
+            width: 116px;
+            opacity: 0
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--cut.one {
+                width: 280px;
+                right: 400px;
+                bottom: -1px
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--cut.one {
+                right: 500px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--cut.one {
+                right: 730px
+            }
+        }
+        .year-review--cut.two {
+            opacity: 0
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--cut.two {
+                display: block;
+                width: 225px;
+                right: 80px;
+                z-index: -10
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--cut.two {
+                right: 220px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--cut.two {
+                right: 480px
+            }
+        }
+        .settwo .year-review--cut.one {
+            width: 200px;
+            bottom: -120px
+        }
+        @media all and (min-width: 61.25em) {
+            .settwo .year-review--cut.one {
+                width: 328px;
+                bottom: -136px;
+                right: 340px
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .settwo .year-review--cut.one {
+                right: 440px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .settwo .year-review--cut.one {
+                right: 626px
+            }
+        }
+        .settwo .year-review--cut.two {
+            bottom: -40px
+        }
+        @-webkit-keyframes oneIn {
+            0% {
+                margin-right: -50px;
+                opacity: 0
+            }
+            15% {
+                opacity: 1
+            }
+            20% {
+                margin-right: 0;
+                opacity: 1
+            }
+            80% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1
+            }
+            85% {
+                opacity: 0
+            }
+            100% {
+                -webkit-transform: translateX(-50px);
+                transform: translateX(-50px);
+                opacity: 1
+            }
+        }
+        @keyframes oneIn {
+            0% {
+                margin-right: -50px;
+                opacity: 0
+            }
+            15% {
+                opacity: 1
+            }
+            20% {
+                margin-right: 0;
+                opacity: 1
+            }
+            80% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1
+            }
+            85% {
+                opacity: 0
+            }
+            100% {
+                -webkit-transform: translateX(-50px);
+                transform: translateX(-50px);
+                opacity: 1
+            }
+        }
+        @-webkit-keyframes twoIn {
+            0% {
+                -webkit-transform: translateX(-50px);
+                transform: translateX(-50px);
+                opacity: 0
+            }
+            15% {
+                opacity: 1
+            }
+            20%,
+            80% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1
+            }
+            85% {
+                opacity: 0
+            }
+            100% {
+                /*-webkit-transform: translateX(50px);
+                transform: translateX(50px);*/
+                opacity: 1
+            }
+        }
+        @keyframes twoIn {
+            0% {
+               /* -webkit-transform: translateX(-50px);
+                transform: translateX(-50px);*/
+                opacity: 0
+            }
+            15% {
+                opacity: 0.5
+            }
+           
+            80% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 0.8
+            }
+            85% {
+                opacity: 0.85
+            }
+            100% {
+                /*-webkit-transform: translateX(50px);
+                transform: translateX(50px);*/
+                opacity: 1
+            }
+        }
+        .year-review--images.active.setone .year-review--cut.one {
+            animation: twoIn;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            -webkit-animation: twoIn;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-fill-mode: forwards
+        }
+        .year-review--images.active.setone .year-review--cut.two {
+            animation: twoIn;
+            animation-delay: .5s;
+            animation-duration: 3.5s;
+            animation-fill-mode: forwards;
+            -webkit-animation: twoIn;
+            -webkit-animation-delay: 1s;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-fill-mode: forwards
+        }
+        .year-review--images.active.settwo .year-review--cut.one {
+            animation: oneIn;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            -webkit-animation: oneIn;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-fill-mode: forwards
+        }
+        .year-review--images.active.settwo .year-review--cut.two {
+            animation: oneIn;
+            animation-delay: .5s;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            -webkit-animation: oneIn;
+            -webkit-animation-delay: 1s;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-fill-mode: forwards
+        }
+        .spotify-button {
+            border: 1px solid #005689;
+            padding: 12px;
+            border-radius: 24px;
+            font-family: "Guardian Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            width: 122px;
+            color: #005689
+        }
+        .spotify-button:hover {
+            background-color: #005689;
+            color: #fff
+        }
+        
+        /*features-main-1#7d0068 features-main-2#b82266 features-support-1#951c55 features-support-2#4e0375 features-support-3#fdadba features-support-4#dc2a7d*/
+        .review-background {
+            background: linear-gradient(30deg, #7d0068, #fdadba);  
+            background-size: 200% 200%;
+            -webkit-animation: AnimationName 10s ease infinite;
+            -moz-animation: AnimationName 10s ease infinite;
+            -o-animation: AnimationName 10s ease infinite;
+            animation: AnimationName 10s ease infinite;
+            min-height: 100% !important;
+            min-width:100%;
+        }
+
+        @-webkit-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @-o-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
