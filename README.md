@@ -2,8 +2,8 @@ A collection of header graphics and a page enhancer used on 2016 review pages
 ============================================================================== 
 
 
-The files are located in 
----------------------------------
+The header graphicfiles are located in 
+------------------------------------------
 review-2016/src/js/text/review-ukfilm.html
 
 review-2016/src/js/text/review-usfilm.html
